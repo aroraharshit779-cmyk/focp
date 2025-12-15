@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider">
+    <div class="slides">
+        <img src="6f73b95e9fce5a203ec5a0012fac548c.jpg" class="slide active">
+        <img src="images.jpg" class="slide">
+        <img src="images (1).jpg" class="slide">
+    </div>
+
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+
+    <div class="dots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
